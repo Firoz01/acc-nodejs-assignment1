@@ -13,6 +13,7 @@ const app = require('./app');
 
 const DB = process.env.DB_ATLAS;
 
+
 mongoose
   .connect(DB, {
     useNewUrlParser: true,
